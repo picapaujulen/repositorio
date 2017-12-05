@@ -1,7 +1,7 @@
 <?xml version="1.0.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.pruebasfesta"
        name="[COLOR yellow]PRUEBAS FESTA[/COLOR]"
-       version="1.0.0 BETA"
+       version="1.0.0BETA"
        provider-name="Neoandaluz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
