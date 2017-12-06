@@ -22,7 +22,7 @@
 
 <addon id="plugin.video.festa"
        name="[COLOR lime]FESTA[/COLOR]"
-       version="0.0.3"
+       version="0.0.4"
        provider-name="lourdes y picapau">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -51,7 +51,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por lourdes y picapau</summary>
-    <description>festa 2017 version 0.0.3 modificado para que salga en la seccion de musica, para poner nueva version desinstalar la antigua cerrar kodi e instalar la nueva version</description>
+    <description>festa 2017 version 0.0.4 modificado para que sea tambien un repositorio</description>
     <platform>all</platform>
   </extension>
 </addon>
