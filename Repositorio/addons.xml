@@ -20,6 +20,36 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.aerobic"
+       name="[COLOR pink]Aerobic[/COLOR]"
+       version="0.0.1"
+       provider-name="Juldelju">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por Juldelju</summary>
+    <description>Addons dedicado para disfrutar haciendo ejercicio con las coreografias de aerobic/step,zumba,just dande y un poquito de relajacion.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.festa"
        name="[COLOR lime]FESTA[/COLOR]"
        version="0.0.4"
@@ -82,9 +112,9 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.8" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.4.14Bump" provider-name="jdf76, bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -116,21 +146,21 @@
 		<summary lang="de">Plugin für YouTube</summary>
         <description lang="de">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
         <summary lang="pl">Wtyczka YouTube</summary>
-        <description lang="pl">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
+        <description lang="pl">YouTube jest jednym z najwiekszych na swiecie serwisów udostepniania wideo.</description>
+		<summary lang="hu">Kiegészíto  a YouTube-hoz</summary>
         <description lang="hu">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
         <summary lang="es">Plugin para YouTube</summary>
         <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
-        <summary lang="ru">Видеодополнение YouTube</summary>
-        <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
+        <summary lang="ru">??????????????? YouTube</summary>
+        <description lang="ru">?????? ?????????? ????????? ???????? ? ???????? ????? ?? ????? ??????? ?????.</description>
         <summary lang="fr">Plugin pour YouTube</summary>
         <description lang="fr">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-        <summary lang="zh">YouTube附加元件</summary>
-        <description lang="zh">「Youtube」是全世界最大的影片分享網站</description>
-        <summary lang="bg">Добавка за YouTube</summary>
-        <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-		<summary lang="el">Πρόσθετο YouTube</summary>
-        <description lang="el">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <summary lang="zh">YouTube????</summary>
+        <description lang="zh">?Youtube??????????????</description>
+        <summary lang="bg">??????? ?? YouTube</summary>
+        <description lang="bg">YouTube ? ???? ?? ???-???????? ??? ??????? ?? ????????? ?? ????? ? ????? ????.</description>
+		<summary lang="el">???s?et? YouTube</summary>
+        <description lang="el">?? YouTube e??a? µ?a ap? t?? µe?a??te?e? ?st?se??de? d?aµ???asµ?? ß??te? st?? ??sµ?.</description>
         <summary lang="no">Tillegg for YouTube</summary>
         <description lang="no">YouTube er en av verdens største nettsider for videodeling.</description>
         <disclaimer lang="en"></disclaimer>
