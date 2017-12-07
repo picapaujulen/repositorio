@@ -58,7 +58,7 @@
 
 <addon id="plugin.video.festa"
        name="[COLOR lime]FESTA[/COLOR]"
-       version="0.0.4"
+       version="0.0.5"
        provider-name="lourdes y picapau">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -87,7 +87,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por lourdes y picapau</summary>
-    <description>festa 2017 version 0.0.4 modificado para que sea tambien un repositorio</description>
+    <description>TODOS LOS VIERNES A LAS 22:00H (zona horaria españa),SACAMOS UNA NUEVA SECCION. festa 2017/18 version 0.0.5 especial navidad, modificado para que sea tambien un repositorio</description>
     <platform>all</platform>
   </extension>
 </addon>
