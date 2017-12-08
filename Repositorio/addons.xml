@@ -22,8 +22,8 @@
 
 <addon id="plugin.video.aerobic"
        name="[COLOR pink]Aerobic[/COLOR]"
-       version="0.0.2"
-       provider-name="DELHIA">
+       version="0.0.1"
+       provider-name="Juldelju">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -43,14 +43,8 @@
     <provides>video</provides>
   </extension>
 
-   <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
-    </extension>
-
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por DELHIA</summary>
+    <summary>Creado por Juldelju</summary>
     <description>Addons dedicado para disfrutar haciendo ejercicio con las coreografias de aerobic/step,zumba,just dande y un poquito de relajacion.</description>
     <platform>all</platform>
   </extension>
