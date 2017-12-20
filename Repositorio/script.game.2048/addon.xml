@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="script.game.2048" name="[COLOR lime]2048[/COLOR]" version="0.0.2" provider-name="Tristan Fischer (sphere@dersphere.de)">
+<addon id="script.game.2048" name="2048" version="0.0.2" provider-name="Tristan Fischer (sphere@dersphere.de)">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -13,6 +13,6 @@
         <email>sphere@dersphere.de</email>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <summary lang="en">Game 2048</summary>
-        <description lang="en">2048,[COLOR red]¡Combina todas las fichas similares para alcanzar una suma de 2048! Este juego de puzzle matemático te desafía a jugar con números pares. Puedes deslizar fichas en cualquier dirección para hacer que los dígitos idénticos se encuentren. ¡Intenta no quedarse sin espacio libre![/COLOR]</description>
+        <description lang="en">2048,[COLOR red]¡Combina todas las fichas similares para alcanzar una suma de 2048! Este juego de puzzle matemático te desafía a jugar con números pares. Puedes deslizar fichas en cualquier dirección para hacer que los dígitos idénticos se encuentren. ¡Intenta no quedarse sin espacio libre!PARA SALIR DEL ADDON EN WINDOWS DAR A LA TECLA DE BORRAR[/COLOR]</description>
     </extension>
 </addon>
