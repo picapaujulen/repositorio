@@ -91,12 +91,13 @@
        version="3.3.4"
        provider-name="[COLOR goldenrod]JHG.MASTER.3.0[/COLOR]">
   <requires>
-    <import addon="xbmc.python" version="2.1.3"/>
+    <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="3.9.4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
@@ -110,15 +111,15 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR goldenrod][B]JHG.MASTER.3.3 [/B][/COLOR]</summary>
+    <summary>[COLOR goldenrod][B]JHG.MASTER.3.0 [/B][/COLOR]</summary>
     <description>
-----= Bienvenidos a JHG.MASTER.3.3 TV Addon =----
+----= Bienvenidos a JHG.MASTER.3.0 TV Addon =----
 Este complemento se convierte en una opcion mas
 a la hora de tener un centro multimedia completo,
 cubriendo las categorias mas solicitadas por los
 usuarios.
 
-JHG.MASTER.3.3 no aloja ningun tipo de contenido. Todos estos
+JHG.MASTER.3.0 no aloja ningun tipo de contenido. Todos estos
 enlaces estan colocado de manera libre en interNET.
 --------------------------------------------------------------------
 
