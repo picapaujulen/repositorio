@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="script.game.yahtzee" name="Yahtzee Game" version="0.4.1" provider-name="Mark Koenig">
+    <requires>
+        <import addon="xbmc.python" version="2.10.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="game.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Yahtzee</summary>
+        <summary lang="de">Yahtzee</summary>
+        <description lang="en">TRADUCIDO AL ESPAÑOL POR ADDON FESTA.Se juega por turnos. A su turno, tras haber lanzado los cinco dados una primera vez, se puede decidir relanzar todos o parte de sus dados para intentar mejorar su juego. cuando se está satisfecho, o los tres lanzamientos permitidos son efectuados, hay que escoger una línea en la pizarra de puntuaciones para anotar sus puntos.
+
+Los puntos a anotar dependen de la combinación que se consiga obtener con sus dados, y de la línea en la que se decida anotar. En general, se anotan 0 puntos si no se consigue hacer la combinación requerida para la línea escogida. A veces, usted se verá obligado a marcar una línea con 0 puntos porque no tenga otra elección o porque la combinación es demasiado difícil de obtener y usted desea proteger otras líneas (esto sucede especialmente con la categoría yhatzee que es muy difícil realizar). Cada línea de la pizarra sólo se utiliza una vez, no es posible rectificar una línea ya ocupada. Una partida se compone pues de 13 turnos, al cabo de los cuáles las 13 líneas de la pizarra están rellenas.</description>
+        <description lang="de">Yahtzee ist ein popul&#228;res Spiel. Das Ziel ist es, die meisten Punkte mit 5 W&#252;rfel zu machen. Jede Runde darf man 3 mal w&#252;rfeln. Ein Spiel hat 13 Runden und jede Runde muss ein Kombination eingetragen werden. Wurde ein Kombination benutzt, ist sie nicht mehr verf&#252;gbar.</description>
+        <license>GPL 2.0</license>
+	<platform>all</platform>
+	<language>en,de</language>
+	<email>mark.koening@kleiner-schelm.de</email>
+	<website>https://www.kodinerds.net</website>
+        <source>https://github.com/mking2203/script.game.yahtzee</source>
+        <assets>
+	    <icon>icon.png</icon>
+	    <fanart>fanart.png</fanart>
+	    <screenshot>resources/screenshot001.jpg</screenshot>
+	    <screenshot>resources/screenshot002.jpg</screenshot>
+	    <screenshot>resources/screenshot003.jpg</screenshot>
+	    <screenshot>resources/screenshot004.jpg</screenshot>	    
+        </assets>
+    </extension>
+</addon>
