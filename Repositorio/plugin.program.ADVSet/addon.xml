@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.0" provider-name="Chem@i">
+<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.2" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-    
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
-    </extension>
-
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-  <summary lang="es">ADV SET Utilidades</summary>
-  <description lang="es">ADV SET Utilidades para el mantenimiento, optimización, y backup de Kodi </description>
-	<news>[B]v 2.0[/B]
+  <summary>ADV Set - Utilidades by Chem@i</summary>
+  <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
+	<news>[B]v 2.2[/B]
 [COLOR green][B]Utilidades[/B][/COLOR]
-* Limpieza Automática
-* Limpieza Manual
-* Mantenimiento del sistema, updates, fixes,...
-* BackUp 
+* Limpieza Automática (habilitada par defecto)
+* Limpieza Manual (cache, iconos, thumbnails,..)
+* Mantenimiento del sistema, Ver log, Errores, updates,...
+* BackUp (Clonación de la compilación utilizada)
 * Configurador de Advanced Settings
 * Test de velocidad
-* ...
-
-Primera version del addon, 
-	  
+* traduccion al castellano
+* ...	  
 	  </news>
 	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
 	  <platform>all</platform>
@@ -47,4 +38,11 @@ Primera version del addon,
     <email>my@email.com</email>
     <source>https://</source>
   </extension>
+  
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+  
 </addon>
