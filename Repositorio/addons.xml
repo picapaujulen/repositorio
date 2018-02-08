@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.2" provider-name="Chem@i">
+<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.3" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,16 +11,11 @@
   <extension point="xbmc.addon.metadata">
   <summary>ADV Set - Utilidades by Chem@i</summary>
   <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
-	<news>[B]v 2.2[/B]
-[COLOR green][B]Utilidades[/B][/COLOR]
-* Limpieza Automática (habilitada par defecto)
-* Limpieza Manual (cache, iconos, thumbnails,..)
-* Mantenimiento del sistema, Ver log, Errores, updates,...
-* BackUp (Clonación de la compilación utilizada)
-* Configurador de Advanced Settings
-* Test de velocidad
-* traduccion al castellano
-* ...
+	<news>[COLOR orange] ADV [/COLOR]Set v 2.3
+* BackUp and Restore, (incorporada la opcion de restaurar copia de seguridad)
+[COLOR gold][B]¡¡ ATENCION !![/B][/COLOR] [COLOR red]Antes de RESTAURAR un BackUp, hay que cambiar necesariamente a los skin por defecto, Confluence o Estuary[/COLOR]
+* Textos traducidos al castellano.
+
 	  </news>
 	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
 	  <platform>all</platform>
