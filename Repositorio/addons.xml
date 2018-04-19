@@ -154,6 +154,67 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.Lili Anime"
+       name="[COLOR pink]Lili Anime[/COLOR]"
+       version="0.0.1"
+       provider-name="Lis">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube"  />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Lis</summary>
+    <description>Se recomienda supervisión parental para acceder directamente a la sección infantil.Sección +16 años con escenas de desnudez fuerte y explícita, escenas fuertes,imagenes muy intensas y sangre en mucha cantidad.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Manuart"
+       name="[COLOR coral]MANUART[/COLOR]"
+       version="0.0.1"
+       provider-name="AnaM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube"  />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>AnaM</summary>
+    <description>La creatividad no consiste en una nueva manera, sino en una nueva visión. La creatividad es la inteligencia divirtiéndose.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mundocine"
        name="[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]"
        version="1.0.1"
@@ -226,7 +287,7 @@
 
 <addon id="plugin.video.sin.barreras"
        name="[COLOR orange]SIN BARRERAS[/COLOR]"
-       version="1.0.0"
+       version="1.1"
        provider-name="SIN-BARRERAS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -254,8 +315,8 @@
     </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creadores Sin barreras:</summary>
-    <description>Adrián Hdz, Delhia, Er Migué, Iker, Jorge H., La mala de la novela, Lourdesvd, Luisma, Pepe, Picapau, TopoGC, Torete
+    <summary>Creadores y Colaboradores de Sin barreras:</summary>
+    <description>Delhia, Er Migué, Iker, Jorge H., La mala de la novela, Lolo, Lourdesvd, Luisma, Mikel Vito, Picapau, Toni Clásico, TopoGC y Torete
 
 addonsinbarreras@gmail.com
 

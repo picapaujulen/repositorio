@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.sin.barreras"
        name="[COLOR orange]SIN BARRERAS[/COLOR]"
-       version="1.0.0"
+       version="1.1"
        provider-name="SIN-BARRERAS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -29,8 +29,8 @@
     </extension>
 	
   <extension point="xbmc.addon.metadata">
-    <summary>Creadores Sin barreras:</summary>
-    <description>Adrián Hdz, Delhia, Er Migué, Iker, Jorge H., La mala de la novela, Lourdesvd, Luisma, Pepe, Picapau, TopoGC, Torete
+    <summary>Creadores y Colaboradores de Sin barreras:</summary>
+    <description>Delhia, Er Migué, Iker, Jorge H., La mala de la novela, Lolo, Lourdesvd, Luisma, Mikel Vito, Picapau, Toni Clásico, TopoGC y Torete
                                   
 addonsinbarreras@gmail.com
                                   
