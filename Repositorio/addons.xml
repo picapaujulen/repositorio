@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.3" provider-name="Chem@i">
+<addon id="plugin.program.ADVSet" name="[COLOR orange] ADV [/COLOR]Set" version="2.4" provider-name="Chem@i">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,10 +11,8 @@
   <extension point="xbmc.addon.metadata">
   <summary>ADV Set - Utilidades by Chem@i</summary>
   <description>ADV Set. Utilidades extraídas de la web, siendo propiedad de sus autores, para el mantenimiento, optimización, y backup de Kodi. Utilízalo con precaución.</description>
-	<news>[COLOR orange] ADV [/COLOR]Set v 2.3
-* BackUp and Restore, (incorporada la opcion de restaurar copia de seguridad)
-[COLOR gold][B]¡¡ ATENCION !![/B][/COLOR] [COLOR red]Antes de RESTAURAR un BackUp, hay que cambiar necesariamente a los skin por defecto, Confluence o Estuary[/COLOR]
-* Textos traducidos al castellano.
+	<news>[COLOR orange] ADV [/COLOR]Set v 2.4
+* Modificacion en test de los archivos Advanced Settings.
 
 	  </news>
 	  <disclaimer>[COLOR red][B]Enjoy KODI.[/B][/COLOR]</disclaimer>
@@ -216,7 +214,7 @@
 
 <addon id="plugin.video.Lili Anime"
        name="[COLOR pink]Lili Anime[/COLOR]"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="Lis">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -277,7 +275,7 @@
 
 <addon id="plugin.video.mundocine"
        name="[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Toni clasico">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
