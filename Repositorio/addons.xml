@@ -118,7 +118,7 @@
 
 <addon id="plugin.video.cocina"
 	name="Cocina"
-	version="1.0"
+	version="1.2"
 	provider-name="ibernet">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
