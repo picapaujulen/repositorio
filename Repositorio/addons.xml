@@ -231,7 +231,7 @@
 
 <addon id="plugin.video.festa"
        name="[COLOR aqua]*[/COLOR][COLOR lime]FESTA[/COLOR][COLOR aqua]*[/COLOR]"
-       version="0.0.8"
+       version="0.0.9"
        provider-name="lourdes,picapau y el equipo de FESTA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -260,7 +260,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por lourdes, picapau y el equipo de FESTA</summary>
-    <description>TODOS LOS VIERNES A LAS 22:00H (HORA PENINSULAR),SACAMOS UNA NUEVA SECCION. festa 2017/18 version 0.0.8 , modificado para que sea tambien un repositorio,CONTEO DE ENTRADAS AL ADDON</description>
+    <description>MUCHOS VIERNES A LAS 22:00H (HORA PENINSULAR),SACAMOS UNA NUEVA SECCION. festa 2017/18 version 0.0.9 , modificado para que sea tambien un repositorio,CONTEO DE ENTRADAS AL ADDON</description>
     <platform>all</platform>
   </extension>
 </addon>
