@@ -202,7 +202,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Deportes247" name="[COLOR aqua]Deportes247[/COLOR]" version="0.0.2" provider-name="picapau y team cristal azul">
+<addon id="plugin.video.Deportes247" name="[COLOR aqua]Deportes247[/COLOR]" version="0.0.3" provider-name="picapau y team cristal azul">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="service.cronxbmc" optional="true"/>
