@@ -308,7 +308,7 @@
 
 <addon id="plugin.video.festakids"
        name="[COLOR aqua]*[/COLOR][COLOR orangered]Festa Kids[/COLOR][COLOR aqua]*[/COLOR]"
-       version="0.0.4"
+       version="0.0.5"
        provider-name="Festa team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -339,6 +339,10 @@
     <summary>Creado por Festa team</summary>
     <description>Addon dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
     <platform>all</platform>
+	  <assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
   </extension>
 </addon>
 
@@ -405,7 +409,7 @@
 
 <addon id="plugin.video.mundocine"
        name="[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]"
-       version="1.0.2"
+       version="1.0.4"
        provider-name="Toni clasico">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -430,11 +434,11 @@
     <summary lang="en">[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]</summary>
     <description lang="en">[COLOR grey]Vive todo el cine clasico.[/COLOR].</description>
     <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
+	  <assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
   </extension>
-
-
 </addon>
 
 <addon id="plugin.video.sin.barreras"
