@@ -810,8 +810,8 @@ Los puntos a anotar dependen de la combinación que se consiga obtener con sus d
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
