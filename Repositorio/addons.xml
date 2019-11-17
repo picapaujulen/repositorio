@@ -164,7 +164,7 @@
 
 <addon id="plugin.video.cristalazul"
        name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.5"
+       version="0.0.6"
        provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -194,7 +194,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>creado por picapau, lourdes, supertopo y luisma</summary>
     <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
-	</description>
+	</description>ºº
     <platform>all</platform>
 	  <assets>
 		<icon>icon.gif</icon>
@@ -350,9 +350,9 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Lili Anime"
-       name="[COLOR pink]Lili Anime[/COLOR]"
-       version="0.0.2"
+<addon id="plugin.video.Lilianime"
+       name="[COLOR pink]Lili anime[/COLOR]"
+       version="0.0.6"
        provider-name="Lis">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -370,14 +370,19 @@
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+    <provides>video </provides>
   </extension>
 
 
+
   <extension point="xbmc.addon.metadata">
-    <summary>Lis</summary>
-    <description>Se recomienda supervisión parental para acceder directamente a la sección infantil.Sección +16 años con escenas de desnudez fuerte y explícita, escenas fuertes,imagenes muy intensas y sangre en mucha cantidad.</description>
+    <summary>Creado por Lis</summary>
+    <description>Se recomienda supervisión parental para acceder directamente a la sección infantil.Sección +16 años con escenas de desnudez fuerte y explícita, escenas fuertes,imagenes muy intensas y sangre en mucha cantidad.Addon dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
     <platform>all</platform>
+	<assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
   </extension>
 </addon>
 
