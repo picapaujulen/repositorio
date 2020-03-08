@@ -66,6 +66,27 @@
     </extension>
 </addon>
 
+<addon id="plugin.program.KGI" name="KGI YouTube API KEYS" version="1.0.0" provider-name="Kodi Global Info">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0" />
+    <import addon="script.module.requests" version="2.9.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KGI YouTube API KEYS</summary>
+    <description lang="en">KGI YouTube API KEYS Tool</description>
+    <disclaimer lang="en">Tool to add YouTube API Keys to YouTube Addon.</disclaimer>
+    <summary lang="es">KGI YouTube API KEYS</summary>
+    <description lang="es">Herramienta KGI YouTube API KEYS</description>
+    <disclaimer lang="es">Herramienta que añade una API Key al addon de YouTube.</disclaimer>
+    <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+  </extension>
+</addon>
+
 <addon id="plugin.program.kodileiawizard" name="KODILEIA [COLOR gold]WIZARDS[/COLOR]" version="1.10" provider-name="Supertopo, Lou, JuanS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -471,11 +492,11 @@ Telegram: t.me/kodi18</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.sin.barreras"
-       name="[COLOR orange]SIN BARRERAS[/COLOR]"
-       version="1.1"
-       provider-name="SIN-BARRERAS">
-  <requires>
+<addon id="plugin.video.sinbarreras"
+       name="[COLOR chartreuse]SIN BARRERAS[/COLOR]"
+       version="1.7"
+       provider-name="SinBarreras">
+ <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -483,9 +504,10 @@ Telegram: t.me/kodi18</description>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" />
+    <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" />
+	<import addon="script.module.resolveurl" optional="true"/>
 	<import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
@@ -494,21 +516,23 @@ Telegram: t.me/kodi18</description>
     <provides>video</provides>
   </extension>
 
-  <extension point="xbmc.addon.repository" name="sin barreras ">
-        <info>https://raw.githubusercontent.com/sinbarreras/sin-barreras/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/sinbarreras/sin-barreras/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/sinbarreras/sin-barreras/master/Repositorio/</datadir>
+    <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
     </extension>
 
+
+
+
   <extension point="xbmc.addon.metadata">
-    <summary>Creadores y Colaboradores de Sin barreras:</summary>
-    <description>Delhia, Er Migué, Iker, Jorge H., La mala de la novela, Lolo, Lourdesvd, Luisma, Mikel Vito, Picapau, Toni Clásico, TopoGC y Torete
-
-addonsinbarreras@gmail.com
-
-https://t.me/sinbarreras
+    <summary>creado por Team Festa y Tvchopo</summary>
+    <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
 	</description>
     <platform>all</platform>
+	  <assets>
+		<icon>icon.gif</icon>
+	  </assets>
   </extension>
 </addon>
 
@@ -812,13 +836,13 @@ Los puntos a anotar dependen de la combinación que se consiga obtener con sus d
     </extension>
 </addon>
 
-<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.0" provider-name="www.stva.ga">
+<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.4" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 
 
     </requires>
-    <extension point="xbmc.python.script" library="main.py">
+    <extension point="xbmc.python.script" library="autoexec.py">
         <provides>executable</provides>
     </extension>
 	<extension point="xbmc.service" library="main.py">
@@ -836,8 +860,8 @@ Los puntos a anotar dependen de la combinación que se consiga obtener con sus d
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
