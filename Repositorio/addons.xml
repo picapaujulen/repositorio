@@ -372,6 +372,71 @@ Telegram: t.me/kodi18</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.FusionOrg" name="Fusion Org"
+	version="0.64" provider-name="Team-Fusion">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="plugin.video.youtube" version="6.6.0" />
+		<import addon="script.module.requests" version="2.22.0" />
+		<import addon="script.module.urlresolver" version="5.0.54" />
+		<import addon="script.module.resolveurl" version="5.0.38"
+			optional="true" />
+		<import addon="script.module.urllib3" version="1.25.6" />
+		<import addon="script.trakt" version="3.2.4" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource"
+		library="default.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.repository" name="Fusion.org">
+		<info>https://repositorio.fusionorg.net/addons.xml</info>
+		<checksum>https://repositorio.fusionorg.net/addons.xml.md5</checksum>
+		<datadir zip="true">https://repositorio.fusionorg.net/</datadir>
+    </extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Fusion Org</summary>
+		<description lang="en">The Future is in You</description>
+		<disclaimer lang="en">
+            <![CDATA[Fusion org, fusionorg.net does [B]not
+store content such as videos, audio or images[/B], everything
+shown in this addon plugin is a compilation of content found
+from [B]different web pages[/B].]]>
+		</disclaimer>
+		<summary lang="es">Fusion Org</summary>
+		<description lang="es">El Futuro esta en Ustedes
+		</description>
+		<disclaimer lang="es">
+            <![CDATA[Fusion org, fusionorg.net [B]no
+almacena contenido como videos, audio o imagenes[/B], todo
+lomostrado en este plugin addon es una recopilacion de
+[B]contenido encontrado de diferentes paginas web[/B].]]>
+		</disclaimer>
+		<language>es-MX</language>
+		<platform>all</platform>
+		<license>GPL-2.0</license>
+		<forum></forum>
+		<website>https://fusionorg.net/</website>
+		<email></email>
+		<source>https://repositorio.fusionorg.net/</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/media/ss/1.jpg</screenshot>
+			<screenshot>resources/media/ss/2.jpg</screenshot>
+			<screenshot>resources/media/ss/3.jpg</screenshot>
+			<screenshot>resources/media/ss/4.jpg</screenshot>
+			<screenshot>resources/media/ss/5.jpg</screenshot>
+		</assets>
+		<news>
+            <![CDATA[Cambios de la version 0.64 (29/02/2020)
+[FIX] Corregido [B]powvideo[/B]]]>
+		</news>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.iptvlistas"
        name="[COLOR lime]iptv listas[/COLOR]"
        version="0.0.1"
