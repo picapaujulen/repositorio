@@ -373,10 +373,9 @@ Telegram: t.me/kodi18</description>
 </addon>
 
 <addon id="plugin.video.FusionOrg" name="Fusion Org"
-	version="0.64" provider-name="Team-Fusion">
+	version="0.65" provider-name="Team-Fusion">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="plugin.video.youtube" version="6.6.0" />
 		<import addon="script.module.requests" version="2.22.0" />
 		<import addon="script.module.urlresolver" version="5.0.54" />
 		<import addon="script.module.resolveurl" version="5.0.38"
@@ -388,13 +387,11 @@ Telegram: t.me/kodi18</description>
 		library="default.py">
 		<provides>video</provides>
 	</extension>
-
 	<extension point="xbmc.addon.repository" name="Fusion.org">
 		<info>https://repositorio.fusionorg.net/addons.xml</info>
 		<checksum>https://repositorio.fusionorg.net/addons.xml.md5</checksum>
 		<datadir zip="true">https://repositorio.fusionorg.net/</datadir>
-    </extension>
-
+	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Fusion Org</summary>
 		<description lang="en">The Future is in You</description>
@@ -430,8 +427,9 @@ lomostrado en este plugin addon es una recopilacion de
 			<screenshot>resources/media/ss/5.jpg</screenshot>
 		</assets>
 		<news>
-            <![CDATA[Cambios de la version 0.64 (29/02/2020)
-[FIX] Corregido [B]powvideo[/B]]]>
+            <![CDATA[Cambios de la version 0.65 (10/03/2020)
+[FIX] Corregido [B]Gamovideo[/B]
+[IMPROVEMENT] Mejora [B]UpToStream[/B]]]>
 		</news>
 		<platform>all</platform>
 	</extension>
