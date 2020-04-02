@@ -334,7 +334,7 @@ Telegram: t.me/kodi18</description>
 
 <addon id="plugin.video.festakids"
        name="[COLOR aqua]*[/COLOR][COLOR orangered]Festa Kids[/COLOR][COLOR aqua]*[/COLOR]"
-       version="0.0.5"
+       version="0.0.7"
        provider-name="Festa team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -363,7 +363,7 @@ Telegram: t.me/kodi18</description>
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por Festa team</summary>
-    <description>Addon dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
+    <description>Dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
     <platform>all</platform>
 	  <assets>
 		<icon>icon.gif</icon>
