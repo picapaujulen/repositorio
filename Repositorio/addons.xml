@@ -871,7 +871,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.AddonCreator"
        name="Addon Creator"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="Titan">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -888,8 +888,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Crea tu propio addon usando este complemento</summary>
-    <description>Crea tu propio addon usando este complemento,gracias a Picapau,LouFesta,Torete y SuperTopo por su ayuda</description>
+    <summary>Crea tu propio addon usando este script</summary>
+    <description>Crea tu propio addon usando este script,gracias a Picapau,LouFesta,Adrian y SuperTopo por su ayuda</description>
     <language></language>
     <license></license>
     <source></source>
