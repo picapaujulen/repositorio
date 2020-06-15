@@ -438,8 +438,8 @@ Colaboradores Sin Barreras: Jesus, Lis, JuanS, El rincon de lolo, ToniClasico, A
 </addon>
 
 <addon id="plugin.video.festakids"
-       name="[COLOR aqua]*[/COLOR][COLOR orangered]Festa Kids[/COLOR][COLOR aqua]*[/COLOR]"
-       version="0.0.8"
+       name="[B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR][/B]"
+       version="0.0.9"
        provider-name="Festa team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
