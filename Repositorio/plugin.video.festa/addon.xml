@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.festa"
-       name="[COLOR aqua]*[/COLOR][COLOR lime]FESTA[/COLOR][COLOR aqua]*[/COLOR]" 
-       version="0.0.11"
-       provider-name="lourdes,picapau y el equipo de FESTA">
+       name="[B][/B][COLOR deeppink]FESTA[/COLOR]" 
+       version="0.0.12"
+       provider-name="Lou,Picapau y el equipo de FESTA">
  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -33,8 +33,8 @@
     </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por lourdes, picapau y el equipo de FESTA</summary>
-    <description>MUCHOS VIERNES A LAS 22:00H (HORA PENINSULAR),SACAMOS UNA NUEVA SECCION. festa 2017/18 version 0.0.10 , modificado para que sea tambien un repositorio,CONTEO DE ENTRADAS AL ADDON</description>
+    <summary>Creado por Lou, Picapau y el equipo de FESTA</summary>
+    <description>GRACIAS POR HABERNOS ACOMPAÑADO DURANTE ESTOS 3 AÑOS.</description>
     <platform>all</platform>
 	  <assets>
 		<icon>icon.gif</icon>
