@@ -349,7 +349,7 @@ Telegram: t.me/kodi18</description>
 
 <addon id="plugin.video.festa"
        name="[B][/B][COLOR deeppink]FESTA[/COLOR]"
-       version="0.0.12"
+       version="0.0.14"
        provider-name="Lou,Picapau y el equipo de FESTA">
  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
