@@ -571,7 +571,7 @@ lomostrado en este plugin addon es una recopilacion de
 
 <addon id="plugin.video.lilianime.festa"
        name="[COLOR pink]Lili Anime[/COLOR]"
-       version="0.0.10"
+       version="0.0.11"
        provider-name="Lis,JuanS,Lou">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
