@@ -352,48 +352,58 @@ Colaboradores Sin Barreras: Jesus, Lis, JuanS, El rincon de lolo, ToniClasico, A
   </extension>
 </addon>
 
-<addon id="plugin.video.festakids"
-       name="[B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR][/B]"
-       version="0.0.12"
-       provider-name="Team Festa y Cristal">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" />
-	<import addon="script.module.resolveurl" />
-    <import addon="script.module.inputstreamhelper" optional="true"/>
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.slproxy" optional="true"/>
-	<import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video audio</provides>
-  </extension>
+<addon id="plugin.video.festakids" name="[B][/B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR]" version="3.0.0" provider-name="Team Festa y Cristal">
+    <requires>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.websocket" optional="true" />
+        <import addon="script.module.youtube.dl" optional="true" />
+        <import addon="plugin.video.youtube" />
+        <import addon="script.module.dateutil" optional="true" />
+        <import addon="script.module.resolveurl" optional="true" />
+        <import addon="script.module.cloudscraper" optional="true" />
+        <import addon="script.module.inputstreamhelper" />
+        <import addon="script.module.pycryptodome" optional="true" />
+        <import addon="script.module.slproxy" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="autoexec.py" start="autoexec" />
+    <extension point="xbmc.addon.repository" name="Mi repositorio">
 
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+        <dir>
+            <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+        </dir>
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
     </extension>
 
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por Team Festa y Cristal</summary>
-    <description>Dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
-    <platform>all</platform>
-	  <assets>
-		<icon>icon.gif</icon>
-		<fanart>fanart.jpg</fanart>
-	  </assets>
-  </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Creado por Team Festa y Cristal</summary>
+        <description>Dedicado a los  pequeñ@s y adolescentes de la familia Festa. Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.
+ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
+        </description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.gif</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="plugin.video.FusionOrg" name="Fusion Org"
