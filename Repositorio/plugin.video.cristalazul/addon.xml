@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.cristalazul" name="[B][/B][COLOR aqua]CRISTAL AZUL 3.0.1[/COLOR]" version="3.0.1" provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
+<addon id="plugin.video.cristalazul" name="[B][/B][COLOR aqua]CRISTAL AZUL 3.0.2[/COLOR]" version="3.0.2" provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
     <requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
