@@ -212,36 +212,6 @@ Telegram: t.me/kodi18</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.escalofrios"
-       name="[COLOR silver]ESCALOFRIOS[/COLOR]"
-       version="6.6.6"
-       provider-name="Equipo Festa y Tvchopo">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube"  />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Equipo Festa y Tvchopo</summary>
-    <description>Addon de terror</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -670,32 +640,6 @@ lomostrado en este plugin addon es una recopilacion de
     <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA REDSOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
 	</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvalacarta"
-    name="tvalacarta"
-    version="4.0.5"
-    provider-name="tvalacarta">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Televisión a la carta</summary>
-    <description lang="es">Para ver la televisión por Internet, a la carta y desde tu media center</description>
-    <summary lang="en">TV on demand (Spanish)</summary>
-    <description lang="en">Watch on demand spanish TV from your media center</description>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>http://www.mimediacenter.info/foro</forum>
-    <website>http://blog.tvalacarta.info/plugin-xbmc/tvalacarta</website>
-    <email>tvalacarta@gmail.com</email>
-    <source>https://github.com/tvalacarta/tvalacarta</source>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="login|startup">
   </extension>
 </addon>
 
