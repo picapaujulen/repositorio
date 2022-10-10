@@ -333,20 +333,21 @@ Colaboradores Sin Barreras: Jesus, Lis, JuanS, El rincon de lolo, ToniClasico, A
   </extension>
 </addon>
 
-<addon id="plugin.video.festakids" name="[B][/B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR]" version="3.0.0" provider-name="Team Festa y Cristal">
+<addon id="plugin.video.festakids" name="[B][/B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR]" version="3.0.1" provider-name="Team Festa y Cristal">
     <requires>
+        <import addon="script.module.simplecache"/>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.websocket" optional="true" />
         <import addon="script.module.youtube.dl" optional="true" />
         <import addon="plugin.video.youtube" />
+		<import addon="plugin.video.duffyou" optional="true" />
         <import addon="script.module.dateutil" optional="true" />
         <import addon="script.module.resolveurl" optional="true" />
         <import addon="script.module.cloudscraper" optional="true" />
         <import addon="script.module.inputstreamhelper" />
         <import addon="script.module.pycryptodome" optional="true" />
-        <import addon="script.module.slproxy" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -379,6 +380,7 @@ Colaboradores Sin Barreras: Jesus, Lis, JuanS, El rincon de lolo, ToniClasico, A
         <description>Dedicado a los  pequeñ@s y adolescentes de la familia Festa. Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.
 ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
         </description>
+		<disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR][COLOR red][B]Pero no se permite[/B][/COLOR] su distribuición preinstalada en ningún tipo de dispositivo ni tampoco su inclusión total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donación[/B][/COLOR], por su adquisición, por su uso o por recibir asistencia.[CR]Si cree que alguna de estas normas no se está cumpliendo póngase en contacto con nosotros.</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.gif</icon>
