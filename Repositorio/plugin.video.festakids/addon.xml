@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.festakids" name="[B][/B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR]" version="3.0.1" provider-name="Team Festa y Cristal">
+<addon id="plugin.video.festakids" name="[B][/B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR]" version="3.0.2" provider-name="Team Festa y Cristal">
     <requires>
         <import addon="script.module.simplecache"/>
         <import addon="script.module.six"/>
